@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LiuLe</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      background: #f5f5f5;
+      min-height: 100vh;
+      padding-bottom: 10px;
+    }
+
+    .page-wrapper {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .header-banner {
+      width: 100%;
+      aspect-ratio: 2 / 1;
+      background: linear-gradient(135deg, #66bb6a, #43a047);
+      position: relative;
+      overflow: hidden;
+      border-radius: 16px 16px 0 0;
+    }
+
+    .header-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      background: #fff;
+      margin: -80px auto 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 60px;
+      border: 6px solid #fff;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+      position: relative;
+      z-index: 10;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .content {
+      text-align: center;
+      background: #fff;
+      padding: 100px 30px 30px 30px;
+      margin-top: -80px;
+      border-radius: 0 0 16px 16px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #2d3748;
+    }
+
+    .bio {
+      color: #718096;
+      margin-bottom: 30px;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .link-btn {
+      width: 95%;
+      background: #66bb6a;
+      color: #fff;
+      padding: 14px 40px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      transition: all 0.2s ease;
+      display: inline-block;
+      border: 3px solid transparent;
+    }
+
+    .link-btn:hover {
+      border: 3px solid #66bb6a;
+      background: #fff;
+      color: #66bb6a;
+    }
+
+    .link-btn:active {
+      transform: scale(0.98);
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #a0aec0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <div class="header-banner">
+      <img src="banner.png" alt="all hope is lost">
+    </div>
+
+    <div class="container">
+      <div class="avatar">
+        <img src="avatar.png" alt="all hope is lost">
+      </div>
+
+      <div class="content">
+        <h1>LiuLe</h1>
+        <p class="bio">Love to clank clank</p>
+
+        <div class="links">
+          <a href="https://x.com/LiuLe00" class="link-btn">X/Twitter</a>
+          <a href="https://www.pixiv.net/en/users/107281483" class="link-btn">Pixiv</a>
+          <a href="https://www.patreon.com/cw/liule00" class="link-btn">Patreon</a>
+          <a href="https://liule.fanbox.cc" class="link-btn">Fanbox</a>
+          <a href="https://ko-fi.com/liule" class="link-btn">Ko-fi</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
